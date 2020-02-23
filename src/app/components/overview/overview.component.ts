@@ -8,24 +8,36 @@ import { Component, OnInit } from '@angular/core';
 export class OverviewComponent implements OnInit {
 
   readonly projectList = [
-    'Project 01',
-    'Project 02',
-    'Project 03',
-    'Project 04',
-    'Project 05',
-    'Project 06',
-    'Project 07',
-    'Project 08',
-    'Project 09',
-    'Project 10',
-    'Project 11',
-    'Project 12',
-    'Project 13',
-    'Project 14',
-    'Project 15',
-    'Project 16',
-    'Project 17',
-    'Project 18'
+    {
+      id: 0,
+      image: 'Card-arpengo.png',
+      title: 'Arpengo',
+    },
+    {
+      id: 1,
+      image: 'Card-baseplay.png',
+      title: 'baseplay',
+    },
+    {
+      id: 2,
+      image: 'Card-Costock.png',
+      title: 'Costocking',
+    },
+    {
+      id: 3,
+      image: 'Card-Dipro.png',
+      title: 'Diproclean',
+    },
+    {
+      id: 4,
+      image: 'Card-FP.png',
+      title: 'Full Performance',
+    },
+    {
+      id: 5,
+      image: 'Card-GS.png',
+      title: 'GatherSquare',
+    }
   ];
 
   constructor() { }

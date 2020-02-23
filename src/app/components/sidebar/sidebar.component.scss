@@ -20,3 +20,33 @@
 .sidebar--linkedin-link {
   text-align: center;
 }
+
+.sidebar--quick-nav {
+  color: #A8A8A8;
+  padding: 40px 20px;
+
+  div {
+    color: #A8A8A8;
+  }
+
+  ul {
+    color: #A8A8A8;
+    padding: 20px 0;
+  }
+}
+
+.quick-nav-element {
+  font-weight: 100;
+  font-size: 16px;
+  padding: 5px 0;
+
+  a {
+    color: #A8A8A8;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:active {
+      color: #DB3056;
+    }
+  }
+}

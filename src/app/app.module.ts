@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {APP_INITIALIZER, NgModule} from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './pages/about/about.component';
@@ -13,6 +13,8 @@ import { ProjectComponent } from './pages/project/project.component';
 import { appRoutes } from './app.routes';
 import { RouterModule } from '@angular/router';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import {AppInitializerService} from './app-initializer.service';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -29,9 +31,24 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes, {
+      anchorScrolling: 'disabled'
+    })
   ],
-  providers: [],
+  providers: [
+    AppInitializerService,
+    {
+      provide: APP_INITIALIZER,
+      useFactory: appInitializerFactory,
+      multi: true,
+      deps: [AppInitializerService]
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export function appInitializerFactory(appInitializer: AppInitializerService): () => Promise<any> {
+  return (): Promise<any> => appInitializer.initApplication().catch((err: any) => { alert(err); });
+}

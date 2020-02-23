@@ -1,181 +1,183 @@
 {
-	"projects": [
-
-		{
-			"projectTitle": "Arpengo",
-			"role": "Product Design | UX-UI | 2018",
-			"header": 
-				{
-					"title": "Arpengo",
-					"text": "Arpengo is an app created to help surveyors directly on the field. The app has 5 different work environment, depending on your goal. Creation from Scratch, or Work for a pre-existing project, import data or create your data model everything is made by Tadaris to start working, wherever your are.",
-					"img": "Arpengo1.png"
-				},
-			"sections": [
-				{
-					"title": "Design research | Colors.",
-					"text": "To insure proper use outdoor, I had to research how to make sure people have the right kind of information they need to navigate between complex topographical informations. Tests were made outside, in a really sunny environment to find a readable and aesthetic color combination.",
-					"img":"ColorScheme.png"
-				},
-				{
-					"title": "Complex content & Small Screen.",
-					"text": "Arpengo was not only a good study for colors outdoor, but with such complex subjects, we had to make sure that every screen was understainable and only necessary informations where there. Even if it meant to break the myth \"every info should be 3 click away for the users\". Spoiler alert:  that’s not true. According to the Nielsen Norman Groupe \"Similarly, if users are clicking through a site hunting for specific products or answers, they'll keep going as long as they continue to find links that seem to take them closer and closer to their goal.\" Hence the choice of micro clear content, specially when the shared info, or action to perform is complex.\"",
-					"img":"chart.png",
-					"comment": "Photo credit: User Interface Engineering, study realised on more than 8,000 clicks determining failure or success of the task asked to be performed by the user. Porter studiy shows that some users visited around 25 and as few as two or three before stopping. No scientific data could prove the 3 clicks rule."
-				},
-				{
-					"title": "Platform |Idiotproof nav & touch friendly.",
-					"text": "Due to its outdoor usage and also because task can be redundant, Arpengo’s UI has to be clear, and make big difference between each step to avoid any confusion. Therefore buttons and navigation are constant, breadcrumbs as well. Each verticals and tools has its own color environment.",
-				},
-				{
-					"title": "Platform | HD Mockup.",
-					"img": "nexus-7-on-dark-surface.png"
-				}
-			]
-		},
-		{
-			"projectTitle": "baseplay.",
-			"role":"Product Design | UX-UI | 2019",
-			"header":	
-				{
-					"title": "baseplay.",
-					"text": "baseplay. is an entertainment product created by Basebone. Entertainment is easy with baseplay. You choose, you pick only what you like and you access all of your interests at once. You can navigate between your hobbies in only one app. \n www.baseplay.co",
-					"img": "baseplayheader.png"
-				},
-			"sections": [
-				{
-					"title": "4 Universes coexisting.",
-					"text": "baseplay. allows you to choose interesting form of entertainment for you, but I had to find a way to insure consistency and seamless user experience for one vertical or several vertical users.",
-					"img":"bpflow.png"
-				},
-				{
-					"title": "UI Choices | Dark UI, Light UI when and where.",
-					"text": "Expectations by package as been researched, following big names of the industry shaping users’ expectations for the look and feel of their app. \n• Dark UI : MUSIC | STREAMING | PULSE\r To reduce battery consumption, I chose to work with dark mode for streaming and music features. Google shared some of their mesures (Android Submit 2018), proving that dark mode can improve battery life. At 50% brightness, dark mode in Youtube saves 15% screen energy compared to its light version. When Brightness is turn to its fullest, Dark UI saves 60% of screen energy.\r• Increase focus and concentration\n• Enhance text readability and legibility \n• Improve contrast\n• Relieve eye fatigue and strain\n• Limits blue light\rBrowsing content using a dark environment is ideal to emphasize visual content. It’s eye-catching and create the perfect contrast with images, videos and graphics. My decision was then to showcase more image than copy for content concerning music, but also lifestyle & exercise infographic, and obviously videos.",
-					"img":"bpmockup.png",
-					"comment": "• LIGHT UI : GAMES | E-LEARNING | KID MOD÷E\rHowever for features that might be used in broad daylight such as games, or the kids section going for light mode was an easy choice.",
-				}
-			]
-		},
-		{
-			"projectTitle": "Costocking",
-			"role": "Visual Identity | UX-UI | 2017",
-			"header": 
-				{
-					"title": "Costocking",
-					"text": "Costocking is a French company from the South of France. The concept behind it is quite simple and ingenious: Some companies have warehouses they can’t fill, other companies need more space than they rent. These shared warehouses allow companies to have warehouses all around the country, reducing environmental pollution, but also costs.",
-					"img": "CostockPinMap.svg"
-				},
-			"sections": [
-				{
-					"title": "Visual Identity.",
-					"text": "I started working for Costocking when it was just a concept. We made it real. The logo had to speak about the main value of the company: offering small businesses a multitude of warehouses. Moreover, Costocking has an ecological value, reduction of transportation with a multitude of storages across the country.",
-					"img":"CostockLogo.png"
-				},
-				{
-					"title": "Platform | Wireframes.",
-					"img":"CostockFlow.png",
-					"comment": "To create this flow, we had to invision two personae : Seeker (if you want to find a warehouse), or Provider (if you have one to share).\nSome of this pages are publicly accessible, part of them are sessions."
-				},
-				{
-					"title": "Platform | Making search easy.",
-					"text": "For the MVP, the search bar has 2 options only, what kind of volume are you searching for (a few packages or several pallets) and where do you need it. The results where presented just under the search bar, constantly there, ready for you to search again.",
-					"img":"CostockPreview.png",
-					"comment":"Anatomy of a result card : ",
-					"img2":"CostockCard.png"
-				},
-				{
-					"title": "Platform | HD Mockup.",
-					"carousel": [
-						"cs1.png",
-						"cs2.png",
-						"cs3.png",
-						"cs4.png"
-					]
-				}
-			]
-		},
-		{
-			"projectTitle": "Diproclean",
-			"role":" Branding | UX-UI | 2017",
-			"header":	
-				{
-					"title": "Diproclean",
-					"text": "Small e-commerce company at first. We had a big challenge restructuring content and renewing Diproclean’s image. \nClients are concerned about their quality of life but are not aware of products. The goal was to adapt to these different levels of information. In addition, the site includes a regulated part aimed at professionals A more concise design to go right to the goal of research. Integrating research modules to facilitate the autonomy of the user and thus make site sales less dependent on the hotline.",
-					"img": "logo-boutique-pc.png"
-				},
-			"sections": [
-				{
-					"title": "Make structure clear for users.",
-					"text": "Most of clients were actually calling Diproclean’s owner, forcing him to put disclaimer when he was going on vacation. His products are complex but our team could help to clarify. The lack of clarity of the previous website, between category and sub-category wasn’t easy to handle. The new structure adopts a new strategy; highlighting types of products and also proposing kits to redirect beginners to offers designed for them.",
-					"img":"Diproflow.png"
-				},
-				{
-					"title" : "Messy to minimalistic.",
-					"img":"DiproBA.png",
-				},
-				{
-					"title": "New Branding",
-					"text": "Diproclean had several logos over the time, and platform. The new logo’s purpose was to advertise the diverse activity of the company but also to create unity between different uses and platforms.",
-					"img": "DiproLogo.png"
-				}
-			]
-		},
-		{
-			"projectTitle": "Full Performance",
-			"role":" Webdesign | UX-UI | 2016",
-			"header":	
-				{
-					"title": "Full Performance",
-					"text": "Full Performance is a French advertising company, Offering online marketing solutions which improve ROI. FP uses Big Data to predict consumers' behaviour. I worked for the company itself but also for several clients projects (such as Babyliss, Diproclean, Tropicalement Votre etc)",
-					"img": "FpHeader.png"
-				},
-			"sections": [
-				{
-					"title": "Before, after.",
-					"text": "Renewal of the visual identity. Full Performance's previous visual identity was well known on events. Gradient were dropped in favor of flat design, to insure consistency between what visitors could see during meetings and events and Full Performance’s online presence.\nCreating content was not the only challenge to make sure users could have a complete overview of Full Performance activity. It’s a complexe company with a lot of people working by project. Previous website didn't clearly provide necessary informations. Moreover, it wasn't easy to defined if the information provided was about a tool or a service. First we designed a common experience for real life meeting and online, and then we restructured information to separates tools, from services, and media presentation",
-					"img":"FpBeforeAfter.png",
-					"comment":"Before /  After "
-				},
-				{
-					"title" : "Website renewal | Workflow.",
-					"text":"Working on a complete renewal of the website was a long run. We had to consider future image for the company, we went for a minimalistic look and feel but it’s still a complex product, offering a lot of possibilities to its clients.",
-					"img":"FPWorkflow.png",
-				},
-				{
-					"title": "New Branding | Non digital assets.",
-					"text": "To insure consistency we had to renew all type of supports, Full Performance was a 360° project.",
-					"img": "FPprint.png"
-				}
-			]
-		},
-		{
-			"projectTitle": "GatherSquare",
-			"role":" Product Design | UX-UI | 2018",
-			"header":	
-				{
-					"title": "GatherSquare",
-					"text": "GatherSquare is made to gather all cultural events around you. You won’t miss an opportunity ever again. Gathering all informations around you : concerts, conferences, but also linked to your agenda and third parties app allowing you to search for extra tickets. \rExpected release :  2020",
-					"img": "GSHeader.png"
-				},
-			"sections": [
-				{
-					"title": "Product | Ideation.",
-					"text": "From the beginning this project was gathering people having similar ideas for different matter. How to stop missing events around your place ? Too much information to check, no suggestion by interest and geolocation. Every good idea starts on paper",
-					"img":"Paperstart.png"
-				},
-				{
-					"title" : "Platform | Wireframes.",
-					"img":"GathersquareUserFlow.png"
-				},
-				{
-					"title" : "Platform | Process.",
-					"img":"GatherSquareWorkflow.png"
-				},
-				{
-					"title" : "Platform | Mockup.",
-					"img":"GathersquareMockup.png"
-				}
-			]
-		}
-
-	]
+  "projects":[
+    {
+      "projectTitle":"Arpengo",
+      "role":"Product Design | UX-UI | 2018",
+      "header":{
+        "title":"Arpengo",
+        "text":"Arpengo is an app created to help surveyors directly on the field. The app has 5 different work environment, depending on your goal. Creation from Scratch, or Work for a pre-existing project, import data or create your data model everything is made by Tadaris to start working, wherever your are.",
+        "img":"Arpengo1.png"
+      },
+      "sections":[
+        {
+          "title":"<h3>Design research | Colors.</h3>",
+          "text":"To insure proper use outdoor, I had to research how to make sure people have the right kind of information they need to navigate between complex topographical informations. Tests were made outside, in a really sunny environment to find a readable and aesthetic color combination.",
+          "img":"ColorScheme.png"
+        },
+        {
+          "title":"<h3>Complex content & Small Screen.</h3>",
+          "text":"Arpengo was not only a good study for colors outdoor, but with such complex subjects, we had to make sure that every screen was understainable and only necessary informations where there. Even if it meant to break the myth \"every info should be 3 click away for the users\". Spoiler alert:  that’s not true. According to the Nielsen Norman Groupe \"Similarly, if users are clicking through a site hunting for specific products or answers, they'll keep going as long as they continue to find links that seem to take them closer and closer to their goal.\" Hence the choice of micro clear content, specially when the shared info, or action to perform is complex.\"",
+          "img":"chart.png"
+        },
+        {
+          "text":"Photo credit: User Interface Engineering, study realised on more than 8,000 clicks determining failure or success of the task asked to be performed by the user. Porter studiy shows that some users visited around 25 and as few as two or three before stopping. No scientific data could prove the 3 clicks rule."
+        },
+        {
+          "title":"<h3>Platform | Idiotproof nav & touch friendly.</h3>",
+          "text":"Due to its outdoor usage and also because task can be redundant, Arpengo’s UI has to be clear, and make big difference between each step to avoid any confusion. Therefore buttons and navigation are constant, breadcrumbs as well. Each verticals and tools has its own color environment."
+        },
+        {
+          "title":"<h3>Platform | HD Mockup.</h3>",
+          "img":"nexus-7-on-dark-surface.png"
+        }
+      ]
+    },
+    {
+      "projectTitle":"baseplay.",
+      "role":"Product Design | UX-UI | 2019",
+      "header":{
+        "title":"baseplay.",
+        "text":"baseplay. is an entertainment product created by Basebone. Entertainment is easy with baseplay. You choose, you pick only what you like and you access all of your interests at once. You can navigate between your hobbies in only one app. <br/> www.baseplay.co",
+        "img":"baseplayheader.png"
+      },
+      "sections":[
+        {
+          "title":"<h3>4 Universes coexisting.</h3>",
+          "text":"baseplay. allows you to choose interesting form of entertainment for you, but I had to find a way to insure consistency and seamless user experience for one vertical or several vertical users.",
+          "img":"bpflow.png"
+        },
+        {
+          "title":"<h3>UI Choices | Dark UI, Light UI when and where.</h3>",
+          "text":"Expectations by package as been researched, following big names of the industry shaping users’ expectations for the look and feel of their app. <br/><h4>• Dark UI : MUSIC | STREAMING | PULSE</h4><br/> To reduce battery consumption, I chose to work with dark mode for streaming and music features. Google shared some of their mesures (Android Submit 2018), proving that dark mode can improve battery life. At 50% brightness, dark mode in Youtube saves 15% screen energy compared to its light version. When Brightness is turn to its fullest, Dark UI saves 60% of screen energy.<br/>• Increase focus and concentration<br/>• Enhance text readability and legibility <br/>• Improve contrast<br/>• Relieve eye fatigue and strain<br/>• Limits blue light<br/>Browsing content using a dark environment is ideal to emphasize visual content. It’s eye-catching and create the perfect contrast with images, videos and graphics. My decision was then to showcase more image than copy for content concerning music, but also lifestyle & exercise infographic, and obviously videos.",
+          "img":"bpmockup.png"
+        },
+        {
+          "text":"<h4>• LIGHT UI : GAMES | E-LEARNING | KID MODE</h4><br/>However for features that might be used in broad daylight such as games, or the kids section going for light mode was an easy choice."
+        }
+      ]
+    },
+    {
+      "projectTitle":"Costocking",
+      "role":"Visual Identity | UX-UI | 2017",
+      "header":{
+        "title":"Costocking",
+        "text":"Costocking is a French company from the South of France. The concept behind it is quite simple and ingenious: Some companies have warehouses they can’t fill, other companies need more space than they rent. These shared warehouses allow companies to have warehouses all around the country, reducing environmental pollution, but also costs.",
+        "img":"CostockPinMap.svg"
+      },
+      "sections":[
+        {
+          "title":"<h3>Visual Identity.</h3>",
+          "text":"I started working for Costocking when it was just a concept. We made it real. The logo had to speak about the main value of the company: offering small businesses a multitude of warehouses. Moreover, Costocking has an ecological value, reduction of transportation with a multitude of storages across the country.",
+          "img":"CostockLogo.png"
+        },
+        {
+          "title":"<h3>Platform | Wireframes.</h3>",
+          "img":"CostockFlow.png"
+        },
+        {
+          "text":"To create this flow, we had to invision two personae : Seeker (if you want to find a warehouse), or Provider (if you have one to share).<br/>Some of this pages are publicly accessible, part of them are sessions."
+        },
+        {
+          "title":"<h3>Platform | Making search easy.</h3>",
+          "text":"For the MVP, the search bar has 2 options only, what kind of volume are you searching for (a few packages or several pallets) and where do you need it. The results where presented just under the search bar, constantly there, ready for you to search again.",
+          "img":"CostockPreview.png"
+        },
+        {
+          "text":"Anatomy of a result card : ",
+          "img":"CostockCard.png"
+        },
+        {
+          "title":"<h3>Platform | HD Mockup.</h3>",
+          "carousel":[
+            "cs1.png",
+            "cs2.png",
+            "cs3.png",
+            "cs4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "projectTitle":"Diproclean",
+      "role":" Branding | UX-UI | 2017",
+      "header":{
+        "title":"Diproclean",
+        "text":"Small e-commerce company at first. We had a big challenge restructuring content and renewing Diproclean’s image. <br/>Clients are concerned about their quality of life but are not aware of products. The goal was to adapt to these different levels of information. In addition, the site includes a regulated part aimed at professionals A more concise design to go right to the goal of research. Integrating research modules to facilitate the autonomy of the user and thus make site sales less dependent on the hotline.",
+        "img":"logo-boutique-pc.png"
+      },
+      "sections":[
+        {
+          "title":"<h3>Make structure clear for users.</h3>",
+          "text":"Most of clients were actually calling Diproclean’s owner, forcing him to put disclaimer when he was going on vacation. His products are complex but our team could help to clarify. The lack of clarity of the previous website, between category and sub-category wasn’t easy to handle. The new structure adopts a new strategy; highlighting types of products and also proposing kits to redirect beginners to offers designed for them.",
+          "img":"Diproflow.png"
+        },
+        {
+          "title":"<h3>Messy to minimalistic.</h3>",
+          "img":"DiproBA.png"
+        },
+        {
+          "title":"<h3>New Branding.</h3>",
+          "text":"Diproclean had several logos over the time, and platform. The new logo’s purpose was to advertise the diverse activity of the company but also to create unity between different uses and platforms.",
+          "img":"DiproLogo.png"
+        }
+      ]
+    },
+    {
+      "projectTitle":"Full Performance",
+      "role":" Webdesign | UX-UI | 2016",
+      "header":{
+        "title":"Full Performance",
+        "text":"Full Performance is a French advertising company, Offering online marketing solutions which improve ROI. FP uses Big Data to predict consumers' behaviour. I worked for the company itself but also for several clients projects (such as Babyliss, Diproclean, Tropicalement Votre etc)",
+        "img":"FpHeader.png"
+      },
+      "sections":[
+        {
+          "title":"<h3>Before, after.</h3>",
+          "text":"Renewal of the visual identity. Full Performance's previous visual identity was well known on events. Gradient were dropped in favor of flat design, to insure consistency between what visitors could see during meetings and events and Full Performance’s online presence.<br/>Creating content was not the only challenge to make sure users could have a complete overview of Full Performance activity. It’s a complexe company with a lot of people working by project. Previous website didn't clearly provide necessary informations. Moreover, it wasn't easy to defined if the information provided was about a tool or a service. First we designed a common experience for real life meeting and online, and then we restructured information to separates tools, from services, and media presentation",
+          "img":"FpBeforeAfter.png"
+        },
+        {
+          "text":"Before / After"
+        },
+        {
+          "title":"<h3>Website renewal | Workflow.</h3>",
+          "text":"Working on a complete renewal of the website was a long run. We had to consider future image for the company, we went for a minimalistic look and feel but it’s still a complex product, offering a lot of possibilities to its clients.",
+          "img":"FPWorkflow.png"
+        },
+        {
+          "title":"<h3>New Branding | Non digital assets.</h3>",
+          "text":"To insure consistency we had to renew all type of supports, Full Performance was a 360° project.",
+          "img":"FPprint.png"
+        }
+      ]
+    },
+    {
+      "projectTitle":"GatherSquare",
+      "role":" Product Design | UX-UI | 2018",
+      "header":{
+        "title":"GatherSquare",
+        "text":"GatherSquare is made to gather all cultural events around you. You won’t miss an opportunity ever again. Gathering all informations around you : concerts, conferences, but also linked to your agenda and third parties app allowing you to search for extra tickets. <br/>Expected release :  2020",
+        "img":"GSHeader.png"
+      },
+      "sections":[
+        {
+          "title":"<h3>Product | Ideation.</h3>",
+          "text":"From the beginning this project was gathering people having similar ideas for different matter. How to stop missing events around your place ? Too much information to check, no suggestion by interest and geolocation. Every good idea starts on paper",
+          "img":"Paperstart.png"
+        },
+        {
+          "title":"<h3>Platform | Wireframes.</h3>",
+          "img":"GathersquareUserFlow.png"
+        },
+        {
+          "title":"<h3>Platform | Process.</h3>",
+          "img":"GatherSquareWorkflow.png"
+        },
+        {
+          "title":"<h3>Platform | Mockup.</h3>",
+          "img":"GathersquareMockup.png"
+        }
+      ]
+    }
+  ]
 }

@@ -6,26 +6,33 @@
   display: flex;
   justify-content: space-between;
   margin: 40px;
+  padding-top: 100px;
 
   .home--title {
     display: inline;
+    padding-top: 80px;
     width: 200px;
     height: 500px;
     flex: 0 49%;
+    line-height: 130%;
   }
 
   .home--carousel {
     display: inline;
-    border: solid 1px #000;
     width: 200px;
     height: 500px;
     flex: 0 49%;
+
+    img {
+      width: 100%;
+    }
   }
 }
 
 .home--overview {
   display: block;
   margin: 40px;
+  padding-top: 100px;
 
   .home--overview-title {
     margin-bottom: 40px;

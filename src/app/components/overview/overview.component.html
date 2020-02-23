@@ -1,5 +1,8 @@
 <div class="overview">
   <div class="overview--item" *ngFor="let project of projectList">
-    {{ project }}
+    <a class="overview-link" routerLink="{{ '/project/' + project.id }}">
+      <img src="{{ 'assets/images/card/' + project.image }}">
+      <div class="overview--item-title">{{ project.title }}</div>
+    </a>
   </div>
 </div>

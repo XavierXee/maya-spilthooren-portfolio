@@ -1,1 +1,31 @@
-<p>project works!</p>
+<app-sidebar></app-sidebar>
+<app-nav></app-nav>
+<main class="project">
+  <div class="project--header">
+    <div class="project--header-left">
+      <h1 class="project--title">
+        <span>{{ projectData.projectTitle }}</span>
+        <span class="separator"></span>
+      </h1>
+      <h2>{{ projectData.role }}</h2>
+      <p class="project--header-text" [innerHTML]="projectData.header.text"></p>
+    </div>
+    <div class="project--header-right">
+      <img alt="{{ projectData.header.img }}" src="{{ 'assets/images/' + projectData.header.img }}">
+    </div>
+  </div>
+  <div class="project--content">
+    <section class="project--content-section" *ngFor="let section of projectData.sections">
+      <div *ngIf="section.title" [innerHTML]="section.title"></div>
+      <div class="project--content-section-text" *ngIf="section.text" [innerHTML]="section.text"></div>
+      <div *ngIf="section.img" class="project--content-image">
+        <img class="project--content-image-content" alt="{{ section.img }}" src="{{ 'assets/images/' + section.img }}">
+      </div>
+      <div *ngIf="section.carousel">
+        <div *ngFor="let carouselImg of section.carousel" class="project--content-image">
+          <img class="project--content-image-content project--content-image-content__carousel" alt="{{ carouselImg }}" src="{{ 'assets/images/' + carouselImg }}">
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
