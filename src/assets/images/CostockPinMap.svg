@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="231px" viewBox="0 0 168 231" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Assets/CostockPinMap</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M156.862,19.464 C160.234,22.06 163.475,24.827 168,28.511 C156.606,38.435 145.991,48.407 134.44,57.14 C132.058,58.94 125.92,56.811 121.958,55.314 C95.846,45.442 75.95,50.128 60.512,70.188 C48.223,86.149 47.291,106.951 58.125,123.496 C70.458,142.327 88.559,150.205 108.973,145.255 C117.519,143.182 128.157,136.037 133.891,138.958 C145.545,144.891 154.509,156.106 164.71,165.259 C142.909,187.361 122.616,208.263 101.751,228.579 C99.692,230.588 92.397,230.76 90.483,228.841 C66.344,204.642 41.013,181.321 19.436,154.95 C-10.318,118.588 -4.327,62.172 29.854,28.46 C63.89,-5.111 119.798,-9.083 156.862,19.464 Z" id="path-1"></path>
+    </defs>
+    <g id="Assets/CostockPinMap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-67">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-66"></g>
+            <polygon id="Fill-65" fill="#EE2B47" mask="url(#mask-2)" points="-4.723 235.187 173 235.187 173 -4.586 -4.723 -4.586"></polygon>
+        </g>
+    </g>
+</svg>

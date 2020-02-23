@@ -1,0 +1,13 @@
+.overview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .overview--item {
+    border: solid 1px #000;
+    flex: 0 32%;
+    height: 200px;
+    margin-bottom: 2%;
+  }
+
+}

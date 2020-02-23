@@ -1,0 +1,95 @@
+<app-sidebar></app-sidebar>
+<app-nav></app-nav>
+<main class="about">
+  <section class="about--top">
+    <div class="about--top-title">
+      <h1 class="home--title">
+        <span>Hi, I'm </span>
+        <strong>Maya</strong>
+        <br/>
+        <strong>Amsterdam </strong>
+        <span>based</span>
+        <br/>
+        <strong>UX/UI Designer</strong>
+        <span class="separator"></span>
+      </h1>
+    </div>
+    <div class="about--top-picture">
+      <img src="assets/images/profile-pic.png">
+    </div>
+  </section>
+  <section class="about--resume">
+    <div class="about--resume-col-left">
+      <div class="about--resume-col-left-experience">
+        <h2 class="about--resume-section-title">
+          Professional Experience
+        </h2>
+        <div>
+          <ul>
+            <li class="about--experience" *ngFor="let experience of professionalExperience">
+              <div class="about--experience-dot"></div>
+              <div class="about--experience-bar"></div>
+              <div class="about--experience-item">
+                <div class="about--experience-company">{{ experience.company }}</div>
+                <div class="about--experience-role">{{ experience.role }}</div>
+                <div class="about--experience-date">{{ experience.date }}</div>
+                <div class="about--experience-location">
+                  <span class="about--experience-location-icon"></span>
+                  <span class="about--experience-location-text">
+                    {{ experience.location }}
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="about--resume-col-left-more">
+        <h2 class="about--resume-section-title">
+          A little bit more about me
+        </h2>
+        <div>
+          <p class="about--resume-more">I fluently speak french and english.</p>
+          <p class="about--resume-more-else">(and a little bit of spanish)</p>
+        </div>
+        <div>
+          <p class="about--resume-more">I am a constant learner, music lover</p>
+          <p class="about--resume-more-else">and probably coffee addict.</p>
+        </div>
+      </div>
+    </div>
+    <div class="about--resume-col-right">
+      <div class="about--resume-col-right-skills">
+        <h2 class="about--resume-section-title">
+          Skills
+        </h2>
+      </div>
+      <div class="about--resume-col-right-education">
+        <h2 class="about--resume-section-title">
+          Education
+        </h2>
+        <div>
+          <ul>
+            <li class="about--experience" *ngFor="let educationItem of education">
+              <div class="about--experience-dot"></div>
+              <div class="about--experience-bar"></div>
+              <div class="about--experience-item">
+                <div class="about--experience-company">{{ educationItem.degree }}</div>
+                <div class="about--experience-role">{{ educationItem.domain }}</div>
+                <div class="about--experience-date">{{ educationItem.date }}</div>
+                <div class="about--experience-location">
+                  <span class="about--experience-location-icon"></span>
+                  <span class="about--experience-location-text">
+                    {{ educationItem.location }}
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+

@@ -1,0 +1,41 @@
+.home {
+  font-size: 26px;
+}
+
+.home--content {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+
+  .home--title {
+    display: inline;
+    width: 200px;
+    height: 500px;
+    flex: 0 49%;
+  }
+
+  .home--carousel {
+    display: inline;
+    border: solid 1px #000;
+    width: 200px;
+    height: 500px;
+    flex: 0 49%;
+  }
+}
+
+.home--overview {
+  display: block;
+  margin: 40px;
+
+  .home--overview-title {
+    margin-bottom: 40px;
+  }
+}
+
+.separator {
+  display: block;
+  margin-top: 20px;
+  width: 130px;
+  height: 3px;
+  border-bottom: solid 3px #DB3056;
+}
