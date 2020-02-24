@@ -2,42 +2,49 @@
   font-size: 26px;
   display: flex;
   justify-content: space-between;
+  line-height: 120%;
 }
 
 .contact--content {
   justify-content: space-between;
   margin: 40px;
-  flex: 0 49%;
+  flex: 0 50%;
 
   .contact--title {
     display: inline;
+    line-height: 130%;
   }
 
   .contact--alt-text {
     font-style: italic;
-  }
-
-  .contact--alt-text {
     font-size: 20px;
+    font-weight: 100;
     margin: 40px 0;
   }
 
   .contact--sub-title {
     color: #DB3056;
     margin: 40px 0;
+    font-size: 20px;
+    font-weight: bold;
   }
 }
 
 .contact--form {
-  flex: 0 49%;
+  flex: 0 50%;
   margin: 40px;
+  text-align: center;
+  display: flex;
+  justify-items: start;
 
   form {
+    max-width: 500px;
+
     .contact--form-input {
       border: solid 1px #DB3056;
       font-size: 16px;
       line-height: 20px;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       padding: 20px;
       display: block;
       width: 100%;
@@ -47,11 +54,13 @@
     .contact--form-submit {
       background-color: #DB3056;
       color: white;
-      border-radius: 4px;
-      padding: 20px;
+      border-radius: 3px;
+      margin-top: 20px;
+      padding: 10px;
       font-size: 16px;
       font-weight: bold;
-      width: 150px;
+      width: 140px;
+      height: 50px;
       float: right;
     }
   }
@@ -63,4 +72,9 @@
   width: 130px;
   height: 3px;
   border-bottom: solid 3px #DB3056;
+}
+
+.mailto-link {
+  color: #DB3056;
+  text-decoration: none;
 }

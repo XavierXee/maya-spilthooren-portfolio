@@ -6,7 +6,6 @@
   display: flex;
   justify-content: space-between;
   margin: 40px;
-  padding-top: 100px;
 
   .home--title {
     display: inline;
@@ -32,7 +31,8 @@
 .home--overview {
   display: block;
   margin: 40px;
-  padding-top: 100px;
+  padding-top: 80px;
+  box-sizing: content-box;
 
   .home--overview-title {
     margin-bottom: 40px;

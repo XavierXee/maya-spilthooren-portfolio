@@ -15,6 +15,7 @@ import { RouterModule } from '@angular/router';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import {AppInitializerService} from './app-initializer.service';
 import {HttpClientModule} from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {HttpClientModule} from '@angular/common/http';
     HttpClientModule,
     RouterModule.forRoot(appRoutes, {
       anchorScrolling: 'disabled'
-    })
+    }),
+    FormsModule
   ],
   providers: [
     AppInitializerService,

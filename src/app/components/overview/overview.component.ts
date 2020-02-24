@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AppInitializerService } from '../../app-initializer.service';
+import { ProjectData } from '../../models/data.model';
 
 @Component({
   selector: 'app-overview',
@@ -6,43 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./overview.component.scss']
 })
 export class OverviewComponent implements OnInit {
+  projectList: ProjectData[];
 
-  readonly projectList = [
-    {
-      id: 0,
-      image: 'Card-arpengo.png',
-      title: 'Arpengo',
-    },
-    {
-      id: 1,
-      image: 'Card-baseplay.png',
-      title: 'baseplay',
-    },
-    {
-      id: 2,
-      image: 'Card-Costock.png',
-      title: 'Costocking',
-    },
-    {
-      id: 3,
-      image: 'Card-Dipro.png',
-      title: 'Diproclean',
-    },
-    {
-      id: 4,
-      image: 'Card-FP.png',
-      title: 'Full Performance',
-    },
-    {
-      id: 5,
-      image: 'Card-GS.png',
-      title: 'GatherSquare',
-    }
-  ];
-
-  constructor() { }
+  constructor(
+    private appInitializerService: AppInitializerService,
+  ) { }
 
   ngOnInit(): void {
+    this.projectList = this.appInitializerService.getData().projects;
   }
 
 }

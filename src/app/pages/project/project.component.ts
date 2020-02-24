@@ -1,20 +1,7 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { AppInitializerService } from '../../app-initializer.service';
-import {ActivatedRoute} from '@angular/router';
-
-interface ProjectDataSection {
-  title?: string;
-  text?: string;
-  img?: string;
-  carousel?: string[];
-}
-
-interface ProjectData {
-  projectTitle: string;
-  role: string;
-  header: ProjectDataSection;
-  sections: ProjectDataSection[];
-}
+import { ActivatedRoute } from '@angular/router';
+import { ProjectData } from '../../models/data.model';
 
 @Component({
   selector: 'app-project',
@@ -34,5 +21,4 @@ export class ProjectComponent implements OnInit {
     window.scrollTo(0, 0);
     this.projectData = this.initService.getData().projects[Number(this.route.snapshot.params.id)];
   }
-
 }

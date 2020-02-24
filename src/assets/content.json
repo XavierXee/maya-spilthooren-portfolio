@@ -1,7 +1,9 @@
 {
   "projects":[
     {
+      "id": 0,
       "projectTitle":"Arpengo",
+      "card": "Card-arpengo.png",
       "role":"Product Design | UX-UI | 2018",
       "header":{
         "title":"Arpengo",
@@ -33,7 +35,9 @@
       ]
     },
     {
+      "id": 1,
       "projectTitle":"baseplay.",
+      "card": "Card-baseplay.png",
       "role":"Product Design | UX-UI | 2019",
       "header":{
         "title":"baseplay.",
@@ -57,7 +61,9 @@
       ]
     },
     {
+      "id": 2,
       "projectTitle":"Costocking",
+      "card": "Card-Costock.png",
       "role":"Visual Identity | UX-UI | 2017",
       "header":{
         "title":"Costocking",
@@ -98,7 +104,9 @@
       ]
     },
     {
+      "id": 3,
       "projectTitle":"Diproclean",
+      "card": "Card-Dipro.png",
       "role":" Branding | UX-UI | 2017",
       "header":{
         "title":"Diproclean",
@@ -123,7 +131,9 @@
       ]
     },
     {
+      "id": 4,
       "projectTitle":"Full Performance",
+      "card": "Card-FP.png",
       "role":" Webdesign | UX-UI | 2016",
       "header":{
         "title":"Full Performance",
@@ -152,7 +162,9 @@
       ]
     },
     {
+      "id": 5,
       "projectTitle":"GatherSquare",
+      "card": "Card-GS.png",
       "role":" Product Design | UX-UI | 2018",
       "header":{
         "title":"GatherSquare",

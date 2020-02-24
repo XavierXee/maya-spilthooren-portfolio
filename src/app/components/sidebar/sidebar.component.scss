@@ -40,12 +40,12 @@
   font-size: 16px;
   padding: 5px 0;
 
-  a {
+  a.quick-nav-link {
     color: #A8A8A8;
     text-decoration: none;
     cursor: pointer;
 
-    &:active {
+    &.active {
       color: #DB3056;
     }
   }

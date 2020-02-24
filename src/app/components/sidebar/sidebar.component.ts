@@ -38,7 +38,6 @@ export class SidebarComponent implements OnInit {
   ngOnInit(): void {
     this.projects = this.appInitializerService.getData().projects;
     this.quickNavEnabled = this.route.snapshot.url[0].path === 'project';
-    console.log(this.projects);
     this.offsetPosition = 0;
     if (document.getElementById('overview')) {
       this.overviewSectionOffsetTop = document.getElementById('overview').offsetTop;
@@ -47,4 +46,7 @@ export class SidebarComponent implements OnInit {
     }
   }
 
+  isCurrentProject(id: number): boolean {
+    return this.route.snapshot.params.id === id.toString();
+  }
 }

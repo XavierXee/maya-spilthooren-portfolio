@@ -7,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  mailData = {
+    name: null,
+    mail: null,
+    message: null
+  };
+
   constructor() { }
 
   ngOnInit(): void {
     window.scrollTo(0, 0);
+  }
+
+  sendMail(): void {
+
   }
 
 }
