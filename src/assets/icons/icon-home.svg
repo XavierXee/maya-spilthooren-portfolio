@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons8-home</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Copy-3" transform="translate(-64.000000, -85.000000)" fill-rule="nonzero">
+            <g id="icons8-home" transform="translate(63.000000, 84.000000)">
+                <g id="Icon" fill="#000000">
+                    <path d="M10,1.62125 L9.55,2.050625 L1.425,10.175625 L2.325,11.075625 L3.125,10.273125 L3.125,17.5 L8.75,17.5 L8.75,11.25 L11.25,11.25 L11.25,17.5 L16.875,17.5 L16.875,10.273125 L17.675,11.074375 L18.575,10.174375 L10.45,2.049375 L10,1.620625 L10,1.62125 Z M10,3.39875 L15.625,9.02375 L15.625,16.25 L12.5,16.25 L12.5,10 L7.5,10 L7.5,16.25 L4.375,16.25 L4.375,9.023125 L10,3.398125 L10,3.39875 Z" id="Icon-Shape"></path>
+                </g>
+                <rect id="ViewBox" x="0" y="0" width="20" height="20"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

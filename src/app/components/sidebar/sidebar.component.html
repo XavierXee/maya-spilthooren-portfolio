@@ -14,7 +14,6 @@
     <ul>
       <li *ngFor="let project of projects" class="quick-nav-element">
         <a class="quick-nav-link" [ngClass]="{'active': isCurrentProject(project.id)}" href="{{ '/project/' + project.id }}">{{ project.projectTitle }}</a>
-<!--        <a class="quick-nav-link" [ngClass]="{'active': isCurrentProject(project.id)}" href="{{ '/project/' + project.id }}">{{ project.projectTitle }}</a>-->
       </li>
     </ul>
   </div>

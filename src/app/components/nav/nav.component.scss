@@ -1,5 +1,10 @@
+.nav--is-mobile {
+  display: none;
+}
+
 .nav {
   width: 100%;
+  position: relative;
   padding-top: 10px;
   height: 70px;
   position: fixed;
@@ -17,7 +22,7 @@
       display: inline-block;
 
       a.nav--button {
-        text-decoration: none;
+        text-decoration: none !important;
         color: black;
         font-size: 20px;
         width: 80px;
@@ -30,5 +35,125 @@
         }
       }
     }
+  }
+}
+
+.nav--burger-container {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  margin: 10px 20px;
+}
+
+.nav--burger-bar1, .nav--burger-bar2, .nav--burger-bar3 {
+  width: 24px;
+  height: 3px;
+  background-color: #DB3056;
+  margin: 4px 0;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.nav--home-button-mobile {
+  margin: 14px;
+}
+
+.nav--mobile-panel {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  right: -340px;
+  top: 0;
+  background: #fff;
+  z-index: 6;
+  padding: 20px;
+  transition: right 0.2s ease-out;
+
+  &.open {
+    right: 0;
+  }
+}
+
+.nav--mobile-icon {
+  width: 20px;
+  margin-right: 30px;
+}
+
+.nav--mobile-panel-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.49);
+  display: none;
+  opacity: 0;
+  z-index: 5;
+  transition: opacity 0.4s ease-out;
+
+  &.open {
+    display: block;
+    opacity: 1;
+  }
+}
+
+.nav--mobile-panel-close {
+  color: #DB3056;
+  margin-bottom: 40px;
+}
+
+.nav--burger-close-bar1, .nav--burger-close-bar2 {
+  width: 26px;
+  height: 2px;
+  background-color: #DB3056;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.nav--burger-close-bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.nav--burger-close-bar2 {
+  transform: rotate(45deg) translate(1px, 3px);
+}
+
+a.nav--button__mobile {
+  line-height: 300%;
+  text-decoration: none;
+
+  span {
+    text-decoration: none;
+  }
+}
+
+.nav--list-project-item {
+  padding-left: 80px;
+  text-decoration: none;
+  position: relative;
+
+  &.active {
+    color: #DB3056;
+
+    &::after {
+      content: "\00a0\00a0";
+      position: absolute;
+      left: 80px;
+      bottom: -8px;
+      width: 40px;
+      background: #DB3056;
+      height: 2px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav--is-mobile {
+    display: block;
+    border: solid 1px #E8E8E8;
+  }
+
+  .nav--is-desktop {
+    display: none;
   }
 }

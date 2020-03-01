@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {APP_INITIALIZER, NgModule} from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
@@ -15,7 +14,7 @@ import { RouterModule } from '@angular/router';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import {AppInitializerService} from './app-initializer.service';
 import {HttpClientModule} from '@angular/common/http';
-import {FormsModule} from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
