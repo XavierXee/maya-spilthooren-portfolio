@@ -10,7 +10,7 @@
     </svg>
   </a>
   <div *ngIf="quickNavEnabled" class="sidebar--quick-nav">
-    <div>Work /</div>
+    <a href="home#overview">Work /</a>
     <ul>
       <li *ngFor="let project of projects" class="quick-nav-element">
         <a class="quick-nav-link" [ngClass]="{'active': isCurrentProject(project.id)}" href="{{ '/project/' + project.id }}">{{ project.projectTitle }}</a>
