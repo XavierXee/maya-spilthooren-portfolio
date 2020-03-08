@@ -16,11 +16,13 @@ export class SidebarComponent implements OnInit {
   quickNavEnabled: boolean;
 
   get logoColor(): string {
-    if (!this.offsetPosition) {
-      return '#DB3056';
-    }
-    if (this.offsetPosition < this.overviewSectionOffsetTop) {
-      return '#DB3056';
+    if (this.route.snapshot.routeConfig.path === 'home') {
+      if (!this.offsetPosition) {
+        return '#DB3056';
+      }
+      if (this.offsetPosition < this.overviewSectionOffsetTop) {
+        return '#DB3056';
+      }
     }
     return '#2A2A2A';
   }

@@ -83,7 +83,7 @@ section.about--top {
 section.about--resume {
   display: flex;
   justify-content: space-between;
-  margin: 40px;
+  margin: 0 40px 0;
 
   @media screen and (max-width: 992px) {
     flex-direction: column;

@@ -21,6 +21,24 @@
   text-align: center;
 }
 
+.sidebar--download-cv {
+  width: 100%;
+  position: absolute;
+  bottom: 120px;
+  text-align: center;
+  left: 0;
+}
+
+.sidebar--download-cv-link {
+  text-decoration: none;
+  text-align: center;
+
+  img {
+    width: 20px;
+    margin-bottom: 10px;
+  }
+}
+
 .sidebar--quick-nav {
   color: #A8A8A8;
   padding: 40px 0;

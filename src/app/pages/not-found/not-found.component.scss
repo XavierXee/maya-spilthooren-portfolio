@@ -1,0 +1,25 @@
+.not-found {
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .not-found {
+    margin: 0 20px 0;
+  }
+}
+
+.not-found--text {
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .not-found--image {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.not-found--back-link {
+  color: #DB3056;
+}

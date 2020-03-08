@@ -125,6 +125,10 @@ h3 {
   width: 100%;
   margin: 120px 0 70px;
   font-size: 30px;
+
+  @media screen and (max-width: 992px) {
+    margin: 40px 0 40px;
+  }
 }
 
 h4 {
