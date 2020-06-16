@@ -37,8 +37,15 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: auto !important;
+}
+
 body {
   line-height: 1;
+  overflow-x: hidden;
 }
 
 ol, ul {

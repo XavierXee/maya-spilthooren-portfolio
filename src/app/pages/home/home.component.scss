@@ -32,12 +32,10 @@
 
 @keyframes slide-right__mobile {
   0% {
-    //-webkit-transform: translateX(-200px);
     transform: translateX(-200px);
   }
   100% {
-    //-webkit-transform: translateX(50px);
-    transform: translateX(50px);
+    transform: translateX(calc(50vw - 100px));
   }
 }
 
@@ -124,6 +122,7 @@
 
   @media screen and (max-width: 992px) {
     &.separator__top {
+      //margin-left: 65px;
       animation: slide-right__mobile 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
   }

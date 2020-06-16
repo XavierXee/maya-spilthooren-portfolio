@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ProjectData } from '../../models/data.model';
+import { AppInitializerService } from '../../app-initializer.service';
 
 @Component({
   selector: 'app-carousel',
@@ -6,13 +8,22 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./carousel.component.scss']
 })
 export class CarouselComponent implements OnInit {
-  @Input() dotNav: boolean;
+  @Input() showDotNav: boolean;
+  @Input() modeSlider: boolean;
 
-  @Input() items: string[];
+  projectList: ProjectData[];
+  currentProject = 0;
 
-  constructor() { }
+  constructor(
+    private appInitializerService: AppInitializerService
+  ) { }
 
   ngOnInit(): void {
+    this.projectList = this.appInitializerService.getData().projects;
+  }
+
+  selectProject(index: number): void {
+    this.currentProject = index;
   }
 
 }

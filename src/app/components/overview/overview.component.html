@@ -1,9 +1,11 @@
-<div class="overview">
-  <div class="overview--item" *ngFor="let project of projectList">
-    <a class="overview-link" routerLink="{{ '/project/' + project.id }}">
-      <img src="{{ 'assets/images/card/' + project.card }}">
-      <div class="overview--item-title">{{ project.projectTitle }}</div>
-      <div class="overview--item-role">{{ project.role }}</div>
-    </a>
+<div class="overview--wrapper">
+  <div id="overview" class="overview">
+    <div class="overview--item" *ngFor="let project of projectList">
+      <a class="overview-link" routerLink="{{ '/project/' + project.id }}">
+        <img src="{{ 'assets/images/card/' + project.card }}">
+        <div class="overview--item-title">{{ project.projectTitle }}</div>
+        <div class="overview--item-role">{{ project.role }}</div>
+      </a>
+    </div>
   </div>
 </div>

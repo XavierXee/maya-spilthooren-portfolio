@@ -63,7 +63,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "PF:build"
+            "browserTarget": "PF:build",
+            "port": 4444
           },
           "configurations": {
             "production": {

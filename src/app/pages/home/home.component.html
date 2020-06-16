@@ -6,10 +6,11 @@
       <span>Hi, I'm </span>
       <strong>Maya</strong>
       <br/>
-      <strong>Amsterdam </strong>
-      <span>based</span>
+      <span>a </span><strong>UX/UI Designer</strong>
       <br/>
-      <strong>UX/UI Designer</strong>
+      <span>based in</span>
+      <strong>Amsterdam </strong>
+      <br/>
       <span class="separator separator__top"></span>
     </h1>
     <div class="home--carousel">
@@ -24,6 +25,11 @@
       <span>Selected projects</span>
       <span class="separator"></span>
     </h2>
-    <app-overview></app-overview>
+    <app-overview *ngIf="!isMobile"></app-overview>
+    <app-carousel
+      *ngIf="isMobile"
+      [showDotNav]="true"
+      [modeSlider]="false"
+    ></app-carousel>
   </section>
 </main>

@@ -38,3 +38,50 @@
   color: #A8A8A8;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 992px) {
+  .overview {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    left: 20px;
+
+    .overview--item {
+      flex: 0 32%;
+      cursor: pointer;
+      text-align: center;
+      margin: 0 6px;
+
+      .overview--item-img-wrapper {
+        width: 313px;
+        height: 289px;
+        border: solid 1px #3E3E3E;
+      }
+
+      .overview--item-title {
+        text-align: center;
+        font-size: 24px;
+        color: #2A2A2A;
+        padding: 20px;
+        font-weight: 100;
+      }
+    }
+  }
+
+  .overview-link {
+    text-decoration: none;
+
+    img {
+      max-width: 313px;
+    }
+  }
+
+  .overview--item-role {
+    font-weight: 100;
+    font-size: 16px;
+    color: #A8A8A8;
+    margin-bottom: 50px;
+  }
+
+
+}

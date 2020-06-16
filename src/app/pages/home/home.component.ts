@@ -8,9 +8,16 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class HomeComponent implements AfterViewInit {
 
+  private readonly mobileMaxWidth: number = 992;
+
+  get isMobile(): boolean {
+    return window.innerWidth <= this.mobileMaxWidth;
+  }
+
   constructor(private route: ActivatedRoute) { }
 
   ngAfterViewInit(): void {
+    console.log(window.innerWidth);
     window.scrollTo(0, 0);
     this.route.fragment.subscribe((fragment: string) => {
       if (fragment === 'overview') {
