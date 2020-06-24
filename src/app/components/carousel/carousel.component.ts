@@ -1,13 +1,14 @@
-import { Component, Input, OnInit } from '@angular/core';
+import {AfterViewInit, Component, Input, OnInit} from '@angular/core';
 import { ProjectData } from '../../models/data.model';
 import { AppInitializerService } from '../../app-initializer.service';
+import * as Flickity from 'flickity';
 
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.scss']
 })
-export class CarouselComponent implements OnInit {
+export class CarouselComponent implements OnInit, AfterViewInit {
   @Input() showDotNav: boolean;
   @Input() modeSlider: boolean;
 
@@ -22,8 +23,11 @@ export class CarouselComponent implements OnInit {
     this.projectList = this.appInitializerService.getData().projects;
   }
 
-  selectProject(index: number): void {
-    this.currentProject = index;
+  ngAfterViewInit(): void {
+    const flkty = new Flickity( '.gallery', {
+      cellAlign: 'center',
+      wrapAround: true,
+      contain: true
+    });
   }
-
 }

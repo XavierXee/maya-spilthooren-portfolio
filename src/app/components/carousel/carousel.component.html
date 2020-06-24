@@ -1,16 +1,9 @@
-<div class="carousel--nav" *ngIf="showDotNav">
-  <div class="carousel--nav-item"
-       *ngFor="let project of projectList; let i = index"
-       (click)="selectProject(i)" >
-    <span class="carousel--nav-item-dot" [ngClass]="{active: currentProject === i}"></span>
-  </div>
-</div>
-<div class="carousel">
-  <div class="carousel--item" *ngFor="let project of projectList">
-    <a class="carousel-link" routerLink="{{ '/project/' + project.id }}">
-      <img src="{{ 'assets/images/card/' + project.card }}">
-      <div class="carousel--item-title">{{ project.projectTitle }}</div>
-      <div class="carousel--item-role">{{ project.role }}</div>
-    </a>
-  </div>
+<div class="gallery js-flickity">
+    <div class="gallery-cell" *ngFor="let project of projectList">
+      <a class="carousel-link" routerLink="{{ '/project/' + project.id }}">
+        <img src="{{ 'assets/images/card/' + project.card }}">
+        <div class="carousel--item-title">{{ project.projectTitle }}</div>
+        <div class="carousel--item-role">{{ project.role }}</div>
+      </a>
+    </div>
 </div>
