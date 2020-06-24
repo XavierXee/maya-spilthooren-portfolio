@@ -17,7 +17,6 @@ export class HomeComponent implements AfterViewInit {
   constructor(private route: ActivatedRoute) { }
 
   ngAfterViewInit(): void {
-    console.log(window.innerWidth);
     window.scrollTo(0, 0);
     this.route.fragment.subscribe((fragment: string) => {
       if (fragment === 'overview') {

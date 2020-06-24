@@ -1,9 +1,25 @@
-<div class="gallery js-flickity">
-    <div class="gallery-cell" *ngFor="let project of projectList">
-      <a class="carousel-link" routerLink="{{ '/project/' + project.id }}">
-        <img src="{{ 'assets/images/card/' + project.card }}">
-        <div class="carousel--item-title">{{ project.projectTitle }}</div>
-        <div class="carousel--item-role">{{ project.role }}</div>
+<div *ngIf="modeProjects">
+  <br/>
+  <br/>
+  <div class="projects js-flickity">
+      <div class="projects-cell" *ngFor="let project of projectList">
+        <a class="carousel-link" routerLink="{{ '/project/' + project.id }}">
+          <img src="{{ 'assets/images/card/' + project.card }}">
+          <div class="carousel--item-title">{{ project.projectTitle }}</div>
+          <div class="carousel--item-role">{{ project.role }}</div>
+        </a>
+      </div>
+  </div>
+</div>
+
+<div *ngIf="!modeProjects">
+  <br/>
+  <br/>
+  <div class="gallery js-flickity">
+    <div class="gallery-cell" *ngFor="let slide of gallerySlides">
+      <a routerLink="/project/{{slide.route}}" routerLinkActive="active">
+        <img src="assets/images/carousel/{{slide.asset}}.png">
       </a>
     </div>
+  </div>
 </div>

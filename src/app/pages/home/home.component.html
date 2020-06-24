@@ -6,17 +6,17 @@
       <span>Hi, I'm </span>
       <strong>Maya</strong>
       <br/>
-      <span>a </span><strong>UX/UI Designer</strong>
+      <span>a </span><strong>UX Designer</strong>
       <br/>
-      <span>based in</span>
+      <span>based in </span>
       <strong>Amsterdam </strong>
       <br/>
       <span class="separator separator__top"></span>
     </h1>
     <div class="home--carousel">
-      <a routerLink="/project/1" routerLinkActive="active">
-        <img src="assets/images/baseplayheader.png">
-      </a>
+      <app-carousel
+        [modeProjects]="false"
+      ></app-carousel>
     </div>
   </section>
 <!--  <section class="overview home&#45;&#45;overview">-->
@@ -28,8 +28,7 @@
     <app-overview *ngIf="!isMobile"></app-overview>
     <app-carousel
       *ngIf="isMobile"
-      [showDotNav]="true"
-      [modeSlider]="false"
+      [modeProjects]="true"
     ></app-carousel>
   </section>
 </main>
