@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       cellAlign: 'center',
       wrapAround: true,
       contain: true,
-      autoPlay: true,
+      autoPlay: false,
       pageDots: false,
       prevNextButtons: false
     };
@@ -34,18 +34,15 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.gallerySlides = [
       {
         asset: 'carousel/slide_0.png',
-        route: '0',
-        label: 'Arpengo'
+        route: '0'
       },
       {
         asset: 'carousel/slide_1.png',
-        route: '1',
-        label: 'baseplay'
+        route: '1'
       },
       {
         asset: 'carousel/slide_2.png',
-        route: '2',
-        label: 'Costocking'
+        route: '2'
       }
     ];
   }
