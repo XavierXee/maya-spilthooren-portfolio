@@ -34,15 +34,18 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.gallerySlides = [
       {
         asset: 'carousel/slide_0.png',
-        route: '0'
+        route: '0',
+        label: 'Arpengo'
       },
       {
         asset: 'carousel/slide_1.png',
-        route: '1'
+        route: '1',
+        label: 'baseplay'
       },
       {
         asset: 'carousel/slide_2.png',
-        route: '2'
+        route: '2',
+        label: 'Costocking'
       }
     ];
   }

@@ -63,9 +63,13 @@
   .project--header-right {
     flex: 0 49%;
     max-width: 300px;
+    padding-right: 30px;
 
     img {
       width: 100%;
+      max-width: 300px;
+      max-height: 300px;
+      padding-right: 20px;
     }
   }
 
@@ -105,7 +109,7 @@
   text-align: center;
 
   @media screen and (max-width: 992px) {
-    margin: 0;
+    margin: 0 0 30px;
     max-width: 100%;
   }
 }

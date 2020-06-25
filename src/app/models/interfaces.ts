@@ -1,6 +1,7 @@
 export interface GallerySlide {
   asset: string;
   route?: string;
+  label?: string;
 }
 
 export interface GalleryOptions {
