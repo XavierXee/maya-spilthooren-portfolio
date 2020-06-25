@@ -32,7 +32,7 @@ export class CarouselComponent implements OnInit, AfterViewInit {
         route: '0'
       },
       {
-        asset: 'baseplay_carousel',
+        asset: 'slide_1',
         route: '1'
       },
       {
