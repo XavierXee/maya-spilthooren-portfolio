@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       cellAlign: 'center',
       wrapAround: true,
       contain: true,
-      autoPlay: false,
+      autoPlay: true,
       pageDots: false,
       prevNextButtons: false
     };
