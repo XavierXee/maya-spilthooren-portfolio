@@ -45,7 +45,8 @@
 
 .home--content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  //justify-content: space-between;
   margin: 40px;
 
   @media screen and (max-width: 992px) {
@@ -56,14 +57,13 @@
     display: inline;
     padding-top: 80px;
     width: 200px;
-    height: 500px;
-    flex: 0 49%;
+    height: 150px;
     line-height: 130%;
     position: relative;
     z-index: 4;
 
     @media screen and (max-width: 1210px) {
-      height: 400px;
+      height: 150px;
     }
 
     @media screen and (max-width: 992px) {
@@ -72,6 +72,7 @@
       width: 100%;
       padding-top: 0;
       text-align: center;
+      padding-left: 0;
     }
   }
 
@@ -125,12 +126,13 @@
   margin-top: 20px;
   width: 130px;
   height: 3px;
+  position: relative;
+  z-index: 3;
   border-bottom: solid 3px #DB3056;
   animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
   @media screen and (max-width: 992px) {
     &.separator__top {
-      //margin-left: 65px;
       animation: slide-right__mobile 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
   }
