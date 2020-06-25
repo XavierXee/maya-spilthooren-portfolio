@@ -95,10 +95,18 @@
         {
           "title":"<h3>Platform | HD Mockup<span class='red'>.</span></h3>",
           "carousel":[
-            "cs1.png",
-            "cs2.png",
-            "cs3.png",
-            "cs4.png"
+            {
+              "asset": "cs1.png"
+            },
+            {
+              "asset": "cs2.png"
+            },
+            {
+              "asset": "cs3.png"
+            },
+            {
+              "asset": "cs4.png"
+            }
           ]
         }
       ]

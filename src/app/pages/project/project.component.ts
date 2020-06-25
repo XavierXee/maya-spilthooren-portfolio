@@ -2,6 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { AppInitializerService } from '../../app-initializer.service';
 import { ActivatedRoute } from '@angular/router';
 import { ProjectData } from '../../models/data.model';
+import {GallerySlide} from '../../models/interfaces';
 
 @Component({
   selector: 'app-project',
@@ -11,6 +12,15 @@ import { ProjectData } from '../../models/data.model';
 })
 export class ProjectComponent implements OnInit {
   projectData: ProjectData;
+  galleryOptions = {
+    className: 'main-gallery',
+    cellAlign: 'center',
+    wrapAround: true,
+    contain: true,
+    autoPlay: true,
+    pageDots: true,
+    prevNextButtons: true,
+  };
 
   constructor(
     private initService: AppInitializerService,
@@ -20,5 +30,13 @@ export class ProjectComponent implements OnInit {
   ngOnInit(): void {
     window.scrollTo(0, 0);
     this.projectData = this.initService.getData().projects[Number(this.route.snapshot.params.id)];
+  }
+
+  makeGallerySlides(carousel: any[]): GallerySlide[] {
+    return carousel.map((carouselItem: any) => {
+      return {
+        asset: carouselItem
+      };
+    });
   }
 }

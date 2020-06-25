@@ -37,7 +37,7 @@
   </button>
   <ul class="nav--list">
     <li class="nav--list-item">
-      <a class="nav--button nav--button__mobile" href="home#overview">
+      <a class="nav--button nav--button__mobile" href="home">
         <img class="nav--mobile-icon" src="assets/icons/icon-home.svg">
         <span>Home</span>
       </a>
@@ -51,7 +51,7 @@
     <li class="nav--list-item">
       <a class="nav--button nav--button__mobile">
         <img class="nav--mobile-icon" src="assets/icons/icon-screen.svg">
-        <span>Work</span>
+        <a class="nav--button" href="home#overview">Work</a>
         <ul>
           <li *ngFor="let project of projectData">
             <a class="nav--list-project-item" [ngClass]="{'active': isCurrentProject(project.id)}" href="{{ '/project/' + project.id }}">{{ project.projectTitle }}</a>

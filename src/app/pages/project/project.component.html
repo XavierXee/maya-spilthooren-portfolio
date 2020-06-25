@@ -23,10 +23,17 @@
       <div *ngIf="section.img" class="project--content-image">
         <img class="project--content-image-content" alt="{{ section.img }}" src="{{ 'assets/images/' + section.img }}">
       </div>
+<!--      <div *ngIf="section.carousel">-->
+<!--        <div *ngFor="let carouselImg of section.carousel" class="project&#45;&#45;content-image">-->
+<!--          <img class="project&#45;&#45;content-image-content project&#45;&#45;content-image-content__carousel" alt="{{ carouselImg }}" src="{{ 'assets/images/' + carouselImg }}">-->
+<!--        </div>-->
+<!--      </div>-->
       <div *ngIf="section.carousel">
-        <div *ngFor="let carouselImg of section.carousel" class="project--content-image">
-          <img class="project--content-image-content project--content-image-content__carousel" alt="{{ carouselImg }}" src="{{ 'assets/images/' + carouselImg }}">
-        </div>
+        <app-carousel
+          [modeProjects]="false"
+          [gallerySlides]="section.carousel"
+          [galleryOptions]="galleryOptions"
+        ></app-carousel>
       </div>
     </section>
   </div>

@@ -1,8 +1,10 @@
+import {GallerySlide} from './interfaces';
+
 export interface ProjectDataSection {
   title?: string;
   text?: string;
   img?: string;
-  carousel?: string[];
+  carousel?: GallerySlide[];
 }
 
 export interface ProjectData {

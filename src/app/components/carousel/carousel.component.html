@@ -15,11 +15,12 @@
 <div *ngIf="!modeProjects">
   <br/>
   <br/>
-  <div class="gallery js-flickity">
-    <div class="gallery-cell" *ngFor="let slide of gallerySlides">
-      <a routerLink="/project/{{slide.route}}" routerLinkActive="active">
-        <img src="assets/images/carousel/{{slide.asset}}.png">
+  <div class="{{galleryOptions.className}} js-flickity">
+    <div class="{{galleryOptions.className}}-cell" *ngFor="let slide of gallerySlides">
+      <a *ngIf="slide.route" routerLink="/project/{{slide.route}}" routerLinkActive="active">
+        <img src="assets/images/{{slide.asset}}">
       </a>
+      <img *ngIf="!slide.route" src="assets/images/{{slide.asset}}">
     </div>
   </div>
 </div>
